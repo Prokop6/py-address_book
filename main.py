@@ -3,9 +3,6 @@
 """ A siple Curses-enabled Python application for managing contact information """
 
 from view import *
-from time import sleep
-
-
 
 
 def main():
