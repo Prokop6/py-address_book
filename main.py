@@ -1,6 +1,8 @@
+#! /usr/bin/env python3
+
 """ A siple Curses-enabled Python application for managing contact information """
 
-from ui import *
+from view import *
 from time import sleep
 
 
@@ -11,7 +13,8 @@ def main():
     screen = init_ui()
 
     display_greeter(screen)
-    sleep(2)
+
+    draw_main_window(screen)
 
     close_ui()
 
